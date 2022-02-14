@@ -1,17 +1,13 @@
 import Skill from './Skill';
 
 export default function Skills(props) {
+   
     return (
         <div className="flex flex-col items-center p-3">
             <h3 className="p-2 mt-1 text-xl font-bold">Compétences</h3>
                 <h4 className="skills">Technologies pratiquées</h4>
                 <div className="bar">
-                   {props.map((prop) => 
-                        <Skill
-                            key={prop.id}
-                            {...prop}
-                        />
-                    )}
+                   <Skill range = {props.range} skill = {props.skill} />
                 </div>
             <br/>
             <div className="skills">

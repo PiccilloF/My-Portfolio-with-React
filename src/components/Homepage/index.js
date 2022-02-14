@@ -16,9 +16,7 @@ export default function Home() {
         <div className="flex flex-col items-center">
             <Header />
             <Presentation/>
-            <Skills
-               props = {datas}
-            />
+            <Skills props = {datas.map((prop)=> prop)}/>
             <Projects />
             <Footer/>
         </div>
