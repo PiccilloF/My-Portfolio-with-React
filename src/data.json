@@ -1,0 +1,20 @@
+[
+    {
+        "id" : 0,
+        "skill": "HTML",
+        "range": 80  
+    },
+
+    {
+        "id": 1,
+        "skill": "CSS",
+        "range": 80
+    },
+
+    {
+        "id": 2,
+        "skill": "Javascript",
+        "range": 64
+    }
+
+]

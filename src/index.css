@@ -17,6 +17,21 @@ code {
 @tailwind utilities; 
 
 .button {
-  @apply px-3 mx-2 rounded-md bg-emerald-600 text-slate-200
-}
+  @apply px-3 pb-1 mx-2 rounded-md bg-emerald-600 text-slate-200 font-semibold
+};
 
+.skills {
+  @apply mt-2 text-base font-semibold text-center 
+};
+
+.bar {
+  @apply w-80 rounded-lg bg-white shadow-xl px-4 py-4 mt-4 
+};
+
+.progress-line {
+  @apply h-2 w-full rounded-lg bg-gray-100 shadow-inner relative
+};
+
+.span{
+  @apply h-full h-2 bg-emerald-600 rounded-lg absolute
+};

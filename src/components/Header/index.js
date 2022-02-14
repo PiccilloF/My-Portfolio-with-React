@@ -1,7 +1,7 @@
 export default function Header() {
     return (
         <div className="p-2 flex flex-col items-center">
-            <h1 className="text-2xl font-bold p-3">
+            <h1 className="text-4xl font-bold p-3">
                 Ma page d'accueil
             </h1>
             <a href="/" className="p-2">Ma photo</a>
